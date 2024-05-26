@@ -1,0 +1,78 @@
+/*For bigger screen then normal 1500px desktop*/
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1500px;
+  }
+ 
+}
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+
+
+}
+
+@media only screen and (max-width: 1300px) {
+  h1{
+    font-size: 70px;
+  }
+
+  .biturbo-team-column {
+  
+    grid-template-columns: 1fr 1fr!important;
+  }
+
+
+}
+@media only screen and (max-width: 1199px) {
+
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+}
+
+
+/*For Tablet Layout*/
+@media(max-width: 991px) {
+  h1{
+    font-size: 48px;
+  }
+  
+  h2, .h2 {
+    font-size: 36px;
+}
+.biturbo-working-item {
+  grid-template-columns: 1fr!important;
+}
+.biturbo-working-item p{
+  font-size: 20px;
+}
+
+}
+
+
+/*For Wide Mobile Layout*/
+@media (max-width: 767px) {
+  h1{
+    font-size: 36px;
+  }
+  h2, .h2 {
+    font-size: 30px;
+}
+.biturbo-team-column {
+  
+  grid-template-columns: 1fr!important;
+}
+
+}
+
+
+/*For 320-384px up Mobile Layout*/
+@media (max-width: 479px) {
+
+
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'BoschSansRegular';
+    src: url('../fonts/BoschSansRegular.eot');
+    src: url('../fonts/BoschSansRegular.eot') format('embedded-opentype'),
+         url('../fonts/BoschSansRegular.woff2') format('woff2'),
+         url('../fonts/BoschSansRegular.woff') format('woff'),
+         url('../fonts/BoschSansRegular.ttf') format('truetype'),
+         url('../fonts/BoschSansRegular.svg#BoschSansRegular') format('svg');
+}
+
+
+@font-face {
+    font-family: 'BoschSansBold';
+    src: url('../fonts/BoschSansBold.eot');
+    src: url('../fonts/BoschSansBold.eot') format('embedded-opentype'),
+         url('../fonts/BoschSansBold.woff2') format('woff2'),
+         url('../fonts/BoschSansBold.woff') format('woff'),
+         url('../fonts/BoschSansBold.ttf') format('truetype'),
+         url('../fonts/BoschSansBold.svg#BoschSansBold') format('svg');
+}
+
