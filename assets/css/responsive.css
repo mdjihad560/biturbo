@@ -13,20 +13,20 @@
 }
 
 @media only screen and (max-width: 1300px) {
-  h1{
-    font-size: 70px;
+  .biturbo-hero-content h1{
+    font-size: 60px;
   }
 
-  .biturbo-team-column {
-  
-    grid-template-columns: 1fr 1fr!important;
-  }
+
 
 
 }
 @media only screen and (max-width: 1199px) {
 
-
+  .biturbo-hero-thumb {
+    padding: 60px;
+    height: 650px;
+}
 
 
 }
@@ -38,18 +38,30 @@
 
 /*For Tablet Layout*/
 @media(max-width: 991px) {
-  h1{
+  .biturbo-hero-content h1{
     font-size: 48px;
   }
-  
-  h2, .h2 {
+  .biturbo-hero-content p {
+    font-size: 20px;
+}
+.biturbo-working-item h2, 
+.biturbo-cta-contnt h2, 
+.biturbo-section-title h2 {
     font-size: 36px;
 }
 .biturbo-working-item {
   grid-template-columns: 1fr!important;
 }
-.biturbo-working-item p{
+.biturbo-working-item p, 
+.biturbo-cta-contnt p{
   font-size: 20px;
+  line-height: 30px;
+}
+.biturbo-cta-contnt{
+  padding: 30px;
+}
+.biturbo-product-column {
+  grid-template-columns: 1fr  1fr!important;
 }
 
 }
@@ -57,17 +69,34 @@
 
 /*For Wide Mobile Layout*/
 @media (max-width: 767px) {
-  h1{
-    font-size: 36px;
-  }
-  h2, .h2 {
+
+.biturbo-working-item h2, 
+.biturbo-section-title h2 {
     font-size: 30px;
 }
-.biturbo-team-column {
-  
-  grid-template-columns: 1fr!important;
+.biturbo-hero-thumb {
+  padding: 25px;
+  height: 650px;
 }
-
+.biturbo-hero-content h1 {
+  font-size: 35px;
+}
+.biturbo-hero-content {
+  padding: 24px;
+}
+.biturbo-working-btn{
+  text-align: center;
+}
+.biturbo-product-column {
+  gap: 50px;
+}
+.biturbo-default-btn {
+  padding: 10px 10px;
+  font-size: 16px;
+}
+.biturbo-product-data p{
+  font-size: 20px;
+}
 }
 
 

@@ -1,9 +1,6 @@
 
 body {
   
-  font-size: 25px;
-  line-height: 30px;
-  color: #000;
   background-color:#fff;
   overflow-x: hidden;
   word-wrap: break-word;
@@ -35,22 +32,8 @@ h1, h2, h3, h4, h5, h6,
   color: rgb(0, 59, 106);
   font-weight: 700;
   line-height: 1em;
-  
   font-family: 'BoschSansBold';
 }
-
-h1,
-.h1{
-    font-size: 90px;
-    text-transform: uppercase;
-}
-
-h2,
-.h2 {
-  font-size: 48px;
-  text-transform: uppercase;
-}
-
 
 p:last-child{
     margin: 0;
@@ -66,21 +49,57 @@ ul{
 HEADER SECTION 
 ----------------------------------------------------*/
 .biturbo-header-top {
-  margin-top: -14px;
+  margin-top: -6px;
+  
 }
 .biturbo-header-top img{
   width: 100%;
   height: 100%;
 }
 .biturbo-header-bottom {
-  padding: 30px 0;
+  margin-top: -2px;
+  padding: 30px;
+  background-color: #003e64;
 }
-section.biturbo-hero-section {
-  background-size: cover;
-  background-position: center;
-}
+
 .biturbo-hero-thumb img{
   width: 100%;
+}
+span.wishlist_products_counter_number {
+  color: #fff!important;
+}
+.wishlist_products_counter {
+  color: #fff!important;
+}
+.box a {
+  color: #E83C3B;
+}
+
+.biturbo-hero-thumb {
+  padding: 80px;
+  height: 870px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: start;
+  justify-content: flex-end;
+}
+.biturbo-hero-content {
+  padding: 40px;
+  max-width: 600px;
+  background-color: #003E64;
+}
+.biturbo-hero-content h1{
+  font-size:70px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.biturbo-hero-content p {
+  font-size: 24px;
+  color: #fff;
+  line-height: 30px;
+  font-weight: 700;
 }
 
 /* main section */
@@ -88,59 +107,83 @@ section.biturbo-hero-section {
   padding: 60px 0;
 }
 .biturbo-section-title {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .biturbo-section-title h2{
-  color: #fff;
+  font-size: 50px;
 }
 .biturbo-working-wrap {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
 }
 .biturbo-working-item {
   display: grid;
   gap: 40px;
-  align-items: center;
   grid-template-columns: 1fr 1fr;
 }
 .biturbo-working-item h2{
   margin-bottom: 24px;
+  font-size: 50px;
+  text-transform: uppercase;
 }
 
 .biturbo-working-data p{
-  text-align: justify;
+  font-size: 25px;
+  line-height: 36px;
+}
+.biturbo-working-btn{
+  margin-top: 20px;
+}
+.biturbo-default-btn {
+  display: inline-block;
+  color: #003E64;
+  border: 1px solid #003E64;
+  padding: 12px 24px;
+  font-size: 20px;
+  transition: all 0.4s;
+  
+}
+.biturbo-default-btn:hover{
+  color: #fff;
+  background-color: #003E64;
 }
 
-/* team section */
-.biturbo-team-section {
-  background-size: cover;
-  background-position: center;
-  padding: 60px 0;
+/* cta section */
+.biturbo-cta-contnt{
+  padding: 50px;
+  background-color: #003E64;
 }
-.biturbo-team-column {
+.biturbo-cta-contnt h2{
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.biturbo-cta-contnt p{
+  font-size: 25px;
+  color: #fff;
+}
+
+/* product section */
+.biturbo-product-section {
+  padding: 70px 0;
+}
+.biturbo-product-column {
   display: grid;
-  gap: 30px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.biturbo-team-wrap{
-  background-color: #fff;
+.biturbo-product-thumb{
+  margin-bottom: 10px;
 }
-.biturbo-team-thumb{
-  overflow: hidden;
+
+.biturbo-product-data span{
+  font-size: 18px;
+  color: #000000;
 }
-.biturbo-team-thumb img{
-  transition: all 0.7s;
-  width: 100%;
-  height: 100%;
-}
-.biturbo-team-wrap:hover .biturbo-team-thumb img{
-  transform: scale(1.1);
-}
-.biturbo-team-data{
-  padding: 24px;
-}
-.biturbo-team-data h3 {
+.biturbo-product-data p{
   font-size: 24px;
-  font-weight: 500;
+  color: #000000;
+  line-height: 24px;
 }
