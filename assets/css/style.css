@@ -29,7 +29,7 @@ a:hover{
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
-  color: rgb(0, 59, 106);
+  color: #000;
   font-weight: 700;
   line-height: 1em;
   font-family: 'BoschSansBold';
@@ -48,22 +48,9 @@ ul{
 /*---------------------------------------------------
 HEADER SECTION 
 ----------------------------------------------------*/
-.biturbo-header-top {
-  margin-top: -6px;
-  
-}
-.biturbo-header-top img{
-  width: 100%;
-  height: 100%;
-}
-.biturbo-header-bottom {
-  margin-top: -2px;
+.bosch-logo{
   padding: 30px;
-  background-color: #003e64;
-}
-
-.biturbo-hero-thumb img{
-  width: 100%;
+  background-color: #293136;
 }
 span.wishlist_products_counter_number {
   color: #fff!important;
@@ -75,116 +62,167 @@ span.wishlist_products_counter_number {
   color: #E83C3B;
 }
 
-.biturbo-hero-thumb {
-  padding: 80px;
-  height: 870px;
+.bosch-hero-thumb {
+  padding: 50px;
+  height: 700px;
   background-size: cover;
   background-position: center;
   display: flex;
-  align-items: start;
-  justify-content: flex-end;
+  align-items: flex-end;
 }
-.biturbo-hero-content {
-  padding: 40px;
-  max-width: 600px;
-  background-color: #003E64;
+.bosch-hero-content {
+  padding: 24px;
+  max-width: 410px;
+  background-color: #fff;
 }
-.biturbo-hero-content h1{
-  font-size:70px;
-  color: #fff;
+.bosch-hero-content h1{
+  font-size:40px;
+  color: #000000;
   margin-bottom: 20px;
-  text-transform: uppercase;
 }
-.biturbo-hero-content p {
+.bosch-hero-content p {
   font-size: 24px;
-  color: #fff;
+  color: #000;
   line-height: 30px;
   font-weight: 700;
 }
 
-/* main section */
-.biturbo-main-section {
+/* content section */
+.bosch-content-section {
   padding: 60px 0;
 }
-.biturbo-section-title {
-  margin-bottom: 100px;
+.bosch-content-section.dark{
+  background-color: #293136;
+  margin-top: 50px;
 }
-.biturbo-section-title h2{
-  font-size: 50px;
-}
-.biturbo-working-wrap {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-.biturbo-working-item {
-  display: grid;
-  gap: 40px;
-  align-items: center;
-  grid-template-columns: 1fr 1fr;
-}
-.biturbo-working-item h2{
-  margin-bottom: 24px;
-  font-size: 50px;
+.bosch-content h2, 
+.bosch-product-title h2, 
+.bosch-add-title h2{
+  font-size: 60px;
+  color: #000;
+  margin-bottom: 30px;
   text-transform: uppercase;
 }
 
-.biturbo-working-data p{
-  font-size: 25px;
-  line-height: 36px;
-}
-.biturbo-working-btn{
-  margin-top: 20px;
-}
-.biturbo-default-btn {
-  display: inline-block;
-  color: #003E64;
-  border: 1px solid #003E64;
-  padding: 12px 24px;
-  font-size: 20px;
-  transition: all 0.4s;
-  
-}
-.biturbo-default-btn:hover{
+.bosch-content.light h2, 
+.bosch-content.light p{
   color: #fff;
-  background-color: #003E64;
 }
 
-/* cta section */
-.biturbo-cta-contnt{
-  padding: 50px;
-  background-color: #003E64;
+.bosch-content p {
+  font-size: 40px;
+  color: #000;
+  line-height: 44px;
 }
-.biturbo-cta-contnt h2{
-  font-size: 50px;
+
+/* video section */
+.bosch-video-wrap{
+  position: relative;
+}
+.bosch-video-wrap img{
+  width: 100%;
+}
+.video-init {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* main section */
+.bosch-main-section {
+  background-color: #293136;
+  padding: 50px 0 0;
+}
+.bosch-main-item {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+.bosch-main-thumb {
+  background-color: #fff;
+  padding: 60px;
+  text-align: center;
+}
+.bosch-main-data{
+  padding: 60px;
+}
+.bosch-main-data h3{
+  font-size: 38px;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-.biturbo-cta-contnt p{
-  font-size: 25px;
+.bosch-main-data p{
+  font-size: 16px;
   color: #fff;
 }
 
 /* product section */
-.biturbo-product-section {
-  padding: 70px 0;
+.bosch-product-section {
+  padding: 100px 0;
 }
-.biturbo-product-column {
+.bosch-product-title {
+  margin-bottom: 100px;
+}
+.bosch-product-column {
   display: grid;
-  gap: 100px;
-  align-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.biturbo-product-thumb{
-  margin-bottom: 10px;
+.bosch-product-thumb {
+  margin-bottom: 30px;
+  height: 175px;
+  text-align: center;
+}
+.bosch-product-data {
+  padding: 20px;
+  background-color: #F5F6F6;
+}
+.bosch-product-data h4{
+  font-size: 26px;
+  color: #293036;
+  text-transform: uppercase;
+}
+.bosch-product-data p{
+  font-size: 16px;
+}
+.bosch-product-bottom {
+  padding-top: 80px;
 }
 
-.biturbo-product-data span{
-  font-size: 18px;
-  color: #000000;
+/* add section */
+.bosch-add-section{
+  padding: 80px 0;
+  background-color: #293035;
 }
-.biturbo-product-data p{
-  font-size: 24px;
-  color: #000000;
-  line-height: 24px;
+.bosch-add-title h2{
+  color: #fff;
+}
+.bosch-add-title{
+  margin-bottom: 50px;
+}
+.bosch-add-column {
+  display: grid;
+  row-gap: 30px;
+  column-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.bosch-add-thumb{
+  padding-bottom: 10px;
+}
+.bosch-add-thumb img{
+  width: 100%;
+}
+.bosch-add-data {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  max-width: 100px;
+}
+.bosch-add-data img{
+  width: 30px;
+}
+.bosch-add-data p{
+  color: #fff;
+  font-weight: 300;
 }

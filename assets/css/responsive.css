@@ -13,21 +13,18 @@
 }
 
 @media only screen and (max-width: 1300px) {
-  .biturbo-hero-content h1{
-    font-size: 60px;
-  }
-
-
-
 
 }
 @media only screen and (max-width: 1199px) {
 
   .biturbo-hero-thumb {
-    padding: 60px;
-    height: 650px;
+    height: 600px;
 }
 
+.bosch-product-column {
+
+  grid-template-columns: 1fr 1fr!important;
+}
 
 }
 
@@ -38,30 +35,44 @@
 
 /*For Tablet Layout*/
 @media(max-width: 991px) {
-  .biturbo-hero-content h1{
-    font-size: 48px;
-  }
-  .biturbo-hero-content p {
+
+  .bosch-hero-content p {
     font-size: 20px;
 }
-.biturbo-working-item h2, 
-.biturbo-cta-contnt h2, 
-.biturbo-section-title h2 {
-    font-size: 36px;
+.bosch-content h2, 
+.bosch-product-title h2, 
+.bosch-add-title h2{
+  font-size: 40px;
 }
-.biturbo-working-item {
-  grid-template-columns: 1fr!important;
+.bosch-content p {
+  font-size: 36px;
+  line-height: 40px;
 }
-.biturbo-working-item p, 
-.biturbo-cta-contnt p{
-  font-size: 20px;
-  line-height: 30px;
+
+.video-init img{
+  width: 120px;
 }
-.biturbo-cta-contnt{
-  padding: 30px;
+.bosch-main-item{
+  align-items: flex-start;
 }
-.biturbo-product-column {
-  grid-template-columns: 1fr  1fr!important;
+.bosch-main-thumb{
+  padding: 40px!important;
+}
+.bosch-main-data{
+  padding: 40px;
+  padding-top: 0!important;
+}
+.bosch-main-data h3 {
+  font-size: 36px;
+}
+.bosch-product-section {
+  padding: 80px 0;
+}
+.bosch-product-title {
+  margin-bottom: 80px;
+}
+.bosch-add-data p {
+  font-size: 12px;
 }
 
 }
@@ -70,43 +81,63 @@
 /*For Wide Mobile Layout*/
 @media (max-width: 767px) {
 
-.biturbo-working-item h2, 
-.biturbo-section-title h2 {
-    font-size: 30px;
+.bosch-hero-thumb {
+  height: 500px;
+  padding: 30px;
 }
-.biturbo-hero-thumb {
+.bosch-hero-content h1 {
+  font-size: 30px;
+}
+.bosch-content h2, 
+.bosch-product-title h2, 
+.bosch-add-title h2{
+  font-size: 30px;
+}
+.bosch-content p {
+  font-size: 24px;
+  line-height: 30px;
+}
+.video-init img{
+  width: 110px;
+}
+.bosch-main-thumb{
+  padding: 25px!important;
+}
+.bosch-main-data {
   padding: 25px;
-  height: 650px;
 }
-.biturbo-hero-content h1 {
-  font-size: 35px;
+.bosch-main-data h3 {
+  font-size: 24px;
 }
-.biturbo-hero-content {
-  padding: 24px;
+.bosch-product-title {
+  margin-bottom: 60px;
 }
-.biturbo-working-btn{
-  text-align: center;
+.bosch-product-thumb{
+  height: auto;
 }
-.biturbo-product-column {
-  gap: 50px;
+.bosch-add-column {
+  column-gap: 10px;
 }
-.biturbo-default-btn {
-  padding: 10px 10px;
-  font-size: 16px;
+.bosch-add-data img {
+  width: 20px;
 }
-.biturbo-product-data p{
-  font-size: 20px;
+.bosch-add-data p {
+  font-size: 8px;
 }
 }
 
 
 /*For 320-384px up Mobile Layout*/
 @media (max-width: 575px) {
-  .biturbo-product-data span {
-    font-size: 13px;
-    margin-bottom: 7px;
-    display: block;
+  .bosch-product-column {
+    gap: 20px;
 }
+.bosch-product-data {
+  padding: 15px;
+}
+  .bosch-product-data h4 {
+    font-size: 18px;
 
+}
 }
 
